@@ -3,7 +3,7 @@ let counts = {};
 
 for(let i = 0; i < par.length; i++) {
     let character = par[i].toLowerCase();
-    if(character >= 'a' && character <= 'z') { // Solo consideramos las letras
+    if(character >= 'a' && character <= 'z') { 
         counts[character] = counts[character] ? counts[character] + 1 : 1;
     }
 }
